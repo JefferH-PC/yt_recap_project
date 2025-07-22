@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Recap Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Yesterday Uploads</h1>
+        <div class="channel-input">
+            <label for="channelName">Add Channel (by name or ID): </label>
+            <input type="text" id="channelName" class="input-name" placeholder="Enter channel name or ID">
+            <button id="addChannelBtn" class="addChannelBtn">Add Channel</button>
+        </div>
+        <div class="channel-list-container">
+            <h2>Subscribed Channels:</h2>
+            <ul id="channelList" class="channels-list">
+            </ul>
+        </div>
+        <button id="searchVideosBtn"> Show Videos</button>
+        <div class="video-results" id="videoResults">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
