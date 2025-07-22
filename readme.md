@@ -61,5 +61,3 @@ To run this project locally, follow these steps:
 
 4.  **View Videos:**
     * Click on any video card in the results section to open that video directly on YouTube in a new tab.
-
-## Project Structure
