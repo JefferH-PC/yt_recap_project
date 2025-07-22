@@ -25,7 +25,7 @@ To run this project locally, follow these steps:
     If you have a Git repository, clone it:
     ```bash
     git clone <your-repository-url>
-    cd youtube-daily-uploads
+    cd yt_recap_project
     ```
     Otherwise, create three files in a new folder: `index.html`, `styles.css`, and `script.js`.
 
